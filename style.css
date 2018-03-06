@@ -1,0 +1,134 @@
+.page-container {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.title-container {
+  background: radial-gradient(farthest-corner at 50vw 50vh, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('leather-nunchuck.png') top repeat;
+  min-height: 100vh;
+}
+
+.title-row {
+  height: 100%;
+}
+
+.title-col {
+  padding: 0;
+}
+
+.title-box {
+  text-align: center;
+  float: right;
+  position: sticky;
+  top: 0;
+  color: rgba(172,169,143,1);
+  width: 100%;
+  z-index: 99;
+}
+
+.main-title-line {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.skills-title {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-me-title-row {
+  padding-top: 70px;
+}
+
+.about-me-row {
+  padding-bottom: 50px;
+  height: 100%;
+}
+
+.about-me-logo {
+  height: 200px;
+  width: 200px;
+  box-shadow: 10px, 10px, 10px, red;
+}
+
+.about-me-container {
+  height: 100%;
+  background: url("gray_jean.png") top center repeat;
+}
+
+.about-me-img-col {
+  height: 300px;
+  width: 300px;
+}
+
+.about-me-img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.my-projects-container {
+  background: url('wood-blue-stretch.png') center/cover;
+  padding-bottom: 30px;
+  /* height: 80vh; */
+}
+
+.my-projects-title-col {
+  padding-top: 70px;
+  height: 200px;
+  width: 200px;
+}
+
+.my-projects-title {
+  color: #F7C346;
+}
+
+.my-project {
+  margin: 3px;
+  text-align: center;
+  background-color: #F7C346;
+  height: 200px;
+}
+
+.calcImg, .paintImg, .listerImg, .personImg {
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.project-tile-header {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.languages-tools-cont {
+  background: url('gray_jean.png');
+  text-align: center;
+}
+
+.languages-tools-row {
+  padding: 70px;
+}
+
+.my-tech-col {
+  background-color: #30637F;
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.my-tech-title {
+  color: ##031430
+}
