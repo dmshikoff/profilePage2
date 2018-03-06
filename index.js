@@ -1,14 +1,14 @@
-let projectTile = document.querySelectorAll('.my-project')
+let contCol = document.querySelectorAll(".my-project")
+let imageCont = document.querySelector(".imgBox")
+let textCont = document.querySelector(".project-tile-header")
 
-
-for(let i of projectTile){
-  i.addEventListener('mouseover', function(event){
-    event.target.querySelector('img').classList.add('d-none')
-    event.target.querySelector('.project-tile-header').classList.remove('d-none')
-
+for(let i of contCol){
+  i.addEventListener("mouseover", function (event) {
+    this.children[1].classList.add("imgBoxIn")
+    this.children[0].classList.add("project-tile-header-in")
   })
-  i.addEventListener('mouseleave', function(event){
-    event.target.querySelector('img').classList.remove('d-none')
-    event.target.querySelector('.project-tile-header').classList.add('d-none')
+  i.addEventListener("mouseout", function (event) {
+    this.children[1].classList.remove("imgBoxIn")
+    this.children[0].classList.remove("project-tile-header-in")
   })
 }
