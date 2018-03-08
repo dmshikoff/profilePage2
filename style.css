@@ -99,7 +99,7 @@
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: opacity .5s;
+  transition: opacity .3s;
 }
 
 .empty {
@@ -111,12 +111,9 @@
 .octoCat {
   grid-column: 3;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  width: 60px;
+  justify-content: flex-end;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity .3s;
 }
 
 .octoCatIn {
@@ -124,8 +121,8 @@
 }
 
 .octoImg {
-  height: 100%;
-  width: 100%;
+  height: 60px;
+  width: 60px;
 }
 
 .imgBoxIn {
@@ -138,8 +135,8 @@
 
 .project-tile-header {
   font-family: 'Josefin Sans', sans-serif;
-  grid-column: 2;
-  grid-row: 1/3;
+  grid-column: 1 / 3;
+  grid-row: 1;
   display: flex;
   opacity: 0;
   transition: opacity .3s;
@@ -167,8 +164,6 @@
 }
 
 .project-title {
-  margin-left: -50px;
-  padding-right: 173px;
   font-size: 25px;
 }
 
@@ -187,19 +182,34 @@ h1 {
 
 .languages-tools-cont {
   background: url('gray_jean.png');
-  text-align: center;
-}
-
-.languages-tools-row {
-  padding: 70px;
 }
 
 .my-tech-col {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #B0A790;
   background-color: #30637F;
   border-radius: 30px;
   margin: 15px;
 }
 
 .my-tech-title {
-  color: ##031430
+  color: #041E47;
+}
+
+.edu-list {
+  text-align: center;
+}
+
+.tech-list {
+  font-size: 20px;
+}
+
+.tech-logo-row {
+  padding: 15px 0px;
+}
+
+.tech-logo {
+  font-size: 50px;
+  color: #B0A790;
+  text-align: center;
 }
