@@ -213,3 +213,12 @@ h1 {
   color: #B0A790;
   text-align: center;
 }
+
+.contact-me-cont {
+  background: url("overlay2-orange.png");
+  height: 52vh;
+}
+
+.contact-me-title {
+  color: #041E47;
+}
