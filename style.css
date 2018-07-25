@@ -40,6 +40,7 @@
 }
 
 .about-me-row {
+  margin: 0px 150px;
   padding-bottom: 50px;
   height: 100%;
 }
@@ -62,8 +63,8 @@
 
 .about-me-img {
   border-radius: 50%;
-  height: 100%;
-  width: 100%;
+  max-height: 250px;
+  max-width: 250px;
 }
 
 .my-projects-container {
@@ -129,8 +130,12 @@
   opacity: 0;
 }
 
-.calcImg, .paintImg, .listerImg, .personImg {
+.deckImg, .nImg, .alexaImg, .avoImg {
   height: 100px;
+}
+
+.alexa-deploy {
+  text-align: center;
 }
 
 .project-tile-header {
@@ -185,6 +190,7 @@ h1 {
 }
 
 .my-tech-col {
+  display: flex;
   font-family: 'Josefin Sans', sans-serif;
   color: #B0A790;
   background-color: #30637F;
@@ -192,12 +198,15 @@ h1 {
   margin: 15px;
 }
 
-.my-tech-title {
-  color: #041E47;
+.edu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
 }
 
-.edu-list {
-  text-align: center;
+.my-tech-title {
+  color: #041E47;
 }
 
 .tech-list {
@@ -209,9 +218,13 @@ h1 {
 }
 
 .tech-logo {
-  font-size: 50px;
+  font-size: 20px;
   color: #B0A790;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.tech-list {
+  text-decoration: underline; 
 }
 
 .contact-me-cont {
@@ -221,4 +234,17 @@ h1 {
 
 .contact-me-title {
   color: #041E47;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-link {
+  font-size: 40px;
+  color: #B0A790;
+}
+
+.contact-link-1 {
+  padding-right: 10px;
 }
