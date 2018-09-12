@@ -4,7 +4,7 @@
 }
 
 .title-container {
-  background: radial-gradient(farthest-corner at 50vw 50vh, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('leather-nunchuck.png') top repeat;
+  background: radial-gradient(farthest-corner at 50vw 50vh, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('/images/leather-nunchuck.png') top repeat;
   min-height: 100vh;
 }
 
@@ -53,7 +53,7 @@
 
 .about-me-container {
   height: 100%;
-  background: url("gray_jean.png") top center repeat;
+  background: url("/images/gray_jean.png") top center repeat;
 }
 
 .about-me-img-col {
@@ -68,7 +68,7 @@
 }
 
 .my-projects-container {
-  background: url('wood-blue-stretch.png') center/cover;
+  background: url('/images/wood-blue-stretch.png') center/cover;
   padding-bottom: 30px;
 }
 
@@ -186,7 +186,7 @@ h1 {
 }
 
 .languages-tools-cont {
-  background: url('gray_jean.png');
+  background: url('/images/gray_jean.png');
 }
 
 .my-tech-col {
@@ -228,7 +228,7 @@ h1 {
 }
 
 .contact-me-cont {
-  background: url("overlay2-orange.png");
+  background: url("/images/overlay2-orange.png");
   height: 52vh;
 }
 
